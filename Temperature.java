@@ -3,7 +3,7 @@
  * @version 2013.10.06
  * Program for ECSE 321, Assignment 2, Fall 2013
  */
-
+// comment from eclipse
 
 /**
  * The {@code Temperature} class allows a user to convert temperature from on
