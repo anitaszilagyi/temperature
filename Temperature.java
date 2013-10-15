@@ -74,6 +74,10 @@ public class Temperature {
   protected double convertFromKelvin(double value) {
       double convertedValue;
 
+      if ((value < 0) && (units == Temperature.Units.KELVIN)) {
+    	  throw new IllegalArgumentException();
+      }
+      
       switch (units) {
           case KELVIN:     convertedValue = value;
                            break;
@@ -83,7 +87,6 @@ public class Temperature {
                            break;
           default:         throw new IllegalArgumentException();
       }
-
       return convertedValue;
   }
 
