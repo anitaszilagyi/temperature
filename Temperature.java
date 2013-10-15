@@ -3,8 +3,7 @@
  * @version 2013.10.06
  * Program for ECSE 321, Assignment 2, Fall 2013
  */
-// VERY OBVIOUS COMMENT FROM ECLIPSE!!!
-// another one
+
 /**
  * The {@code Temperature} class allows a user to convert temperature from on
  * unit to another.
